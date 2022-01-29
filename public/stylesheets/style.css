@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form:not(.add) {
+  display: inline;
+}
+
+form.add {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+}
+
+button.add-btn {
+  grid-column: 2/3;
+  width: 10rem;
+  /* justify-self: center; */
+}
+
+input {
+  padding: .3em;
+  border: solid 1px #999;
+}
